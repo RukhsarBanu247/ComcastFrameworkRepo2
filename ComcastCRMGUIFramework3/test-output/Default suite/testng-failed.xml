@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.comcast.crm.PomClasses.CreateVendorProductTest">
+      <class name="Practice.GetProductInfoWithDataProviderAnnotaionTest">
         <methods>
-          <include name="configAC"/>
-          <include name="configAS"/>
-          <include name="configBC"/>
-          <include name="configBS"/>
-          <include name="configAM"/>
-          <include name="configBM"/>
-          <include name="createVendorWithProduct"/>
+          <include name="getProductInfoTest"/>
         </methods>
-      </class> <!-- com.comcast.crm.PomClasses.CreateVendorProductTest -->
+      </class> <!-- Practice.GetProductInfoWithDataProviderAnnotaionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

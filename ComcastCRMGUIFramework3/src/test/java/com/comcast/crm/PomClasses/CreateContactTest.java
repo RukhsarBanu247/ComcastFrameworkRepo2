@@ -38,7 +38,7 @@ import com.comcast.crm.objectrepositoryUtility.OrganizationPage;
 public class CreateContactTest extends BaseClass {
 
 	@Test(groups = "smokeTest")
-	public void createContact() throws Throwable {
+	public void createContactTest() throws Throwable {
 
 		/* reading testscriptdata from excel file */
 		String lastName = eUtil.getDataFromExcel("Contact", 1, 2) + jUtil.getRandomNumber();
